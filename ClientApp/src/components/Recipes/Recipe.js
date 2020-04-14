@@ -15,6 +15,7 @@ export class Recipe extends Component {
             hideRecipes: true
         };
         this.renderRecipeSearchForm = this.renderRecipeSearchForm.bind(this);
+        this.renderRecipeView = this.renderRecipeView.bind(this);
     }
 
     renderRecipeSearchForm() {
